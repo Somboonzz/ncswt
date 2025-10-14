@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 import datetime
 import os
-import pytz # 123456236
+import pytz # สำหรับโซนเวลา
 
 st.set_page_config(page_title="HR Dashboard", layout="wide")
 

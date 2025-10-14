@@ -179,6 +179,7 @@ if not df.empty:
                 if not dates.empty:
                     total_days = dates["ข้อยกเว้น"].apply(leave_days).sum()
                     with st.expander(f"ดูรายละเอียดวันที่ "):
+                        total_days = dates["จำนวน"].sum()
                         for _, row in dates.iterrows():
                             entry_time = row['เวลาเข้า'].strftime('%H:%M')
                             exit_time = row['เวลาออก'].strftime('%H:%M')

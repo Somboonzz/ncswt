@@ -4,4 +4,4 @@ git add .
 git push
 git fetch --all
 git push --all
-
+git pushall

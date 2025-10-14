@@ -191,7 +191,7 @@ if not df.empty:
             
             ranking_display = ranking[ranking[leave] > 0] # กรองคนที่ไม่มียอดออก
 
-            st.markdown("### 🏅 ตารางอันดับ")
+            st.markdown("### 🏅 อันดับ")
             st.dataframe(ranking_display, use_container_width=True)
 
             # --- กราฟ (เหมือนต้นฉบับ) ---

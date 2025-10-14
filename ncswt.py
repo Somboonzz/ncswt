@@ -4,7 +4,6 @@ import altair as alt
 import datetime
 import os
 import pytz  # สำหรับโซนเวลา
-import pytz # สำหรับโซนเวลา562654
 
 st.set_page_config(page_title="HR Dashboard", layout="wide")
 

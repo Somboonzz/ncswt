@@ -1,0 +1,7 @@
+streamlit run ncswt.py
+python ncswt.py
+git add .
+git push
+git fetch --all
+git push --all
+

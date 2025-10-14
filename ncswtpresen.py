@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 import datetime
 import os
-import pytz 
+import pytz # สำหรับโซนเวลา562654
 
 # ----------------------------------------------------------------------------------
 # ตั้งค่าหน้า และ CSS
